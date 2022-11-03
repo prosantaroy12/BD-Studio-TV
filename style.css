@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.header{
+    
+    display: flexbox;
+}
+.header p{
+    color: red;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: greenyellow
+}
+.header h1{
+    color: red;
+    text-align: center;
+    background-color: greenyellow;
+    font-size: 40px;
+
+}
+.nav{
+   background-color: #7d5fff;
+   text-align: center;
+   list-style: none;
+   padding: 20px 0;  
+   
+}
+
+.nav li{
+    display: inline-block;
+    list-style: none;
+    
+}
+.nav li a{
+   padding: 0 60px;
+   text-decoration: none; 
+   border-radius: 30px 20px;
+   border: 3px solid black;
+   background-color: #fff200;
+   font-size: 20px;
+}
+.nav li a:hover{
+    color: chartreuse;
+}
+.nav a button{
+    text-align: right;
+    color: brown;
+}
+.contenier{
+   background-color: rgb(228, 133, 18);
+   margin: 30px 20px;
+   border: 3px solid gold;
+   
+}
+.img{
+   float: right;
+   width: 50%;
+   background-color: #fff200;
+   text-align: center;
+   padding: 2px 0;
+   
+
+}
+.prosanta{
+   float: left;
+   width: 50%;
+   background-color: #fff200;
+   text-align: center;
+   font-size: 20px;
+   
+}
+.sec1{
+    background-color: #8d8b66;
+}
+/* Article div open*/
+.Article-div{
+  background-color: chartreuse;
+  clear: both;
+  border: 2px solid red;
+  margin:  30px 20px;
+}
+.arti1{
+  background-color: dodgerblue;
+  
+}
+.arti2{
+    background-color: rgb(79, 70, 128);
+}
+.arti3{
+    background-color: rgb(134, 84, 101);
+}
+.arti1 p::first-letter{
+    font-size: 40px;
+    color: #fff200;
+}
+.arti2 p::first-letter{
+    font-size: 40px;
+    color: #ff004c;
+}
+.arti3 p::first-letter{
+    font-size: 40px;
+    color: #00ff40;
+}
+/*Video css*/
+.video{
+    background-color: #3a5340;
+  
+}
+/*Footer CSS Open*/
+.footer{
+   background-color: black;
+   height: 200px;
+   
+}
+.footer-div1{
+    color: aliceblue;
+    float: left;
+    padding: 20px 30px;
+    
+}
+.footer-div1 li a{
+    text-decoration: none;
+}
+.footer-div1 li {
+    list-style: none;
+}
+.footer-div2{
+    color: rgb(191, 231, 14);
+    float: left;
+    padding: 20px 150px;
+}
+.footer-div3{
+    color: rgb(71, 231, 22);
+    float: left;
+    padding: 20px 200px;
+
+}
+.footer p{
+    clear: both;
+    font-size: 15px;
+    padding: 0 30px;
+}
